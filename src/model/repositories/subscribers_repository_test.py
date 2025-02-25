@@ -19,7 +19,7 @@ def test_select_subscriber():
     subs_repo = SubscribersRepository()
     resp = subs_repo.select_subscriber(email, evento_id)
     print(resp.nome)
-@pytest.mark.skip("select rank")
+
 def test_ranking():
     event_id = 1
     link_repo = SubscribersRepository()
