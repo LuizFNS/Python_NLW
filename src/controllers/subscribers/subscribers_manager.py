@@ -35,7 +35,7 @@ class SubscriberManager:
                     "subscribers":formatted_subscriber
 
                 }
-            }
+            }, status_code=200
         )
     
     def __format_event_ranking(self,event_ranking:list) -> HttpResponse:
@@ -55,5 +55,5 @@ class SubscriberManager:
                     "ranking":formatted_event_ranking
 
                 }
-            }
+            }, status_code=200
         )
